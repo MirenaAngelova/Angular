@@ -1,0 +1,9 @@
+@font-face {
+    font-family: magnolia-font;
+    src: url(/assets/fonts/magnolia_sky.ttf)
+}
+
+* {
+    font-family: magnolia-font;
+    color: violet;
+}
