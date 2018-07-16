@@ -1,0 +1,11 @@
+$textColor: rgb(255, 146, 146);
+$buttonColor: rgb(233, 1, 129);
+body {
+    color: $textColor;
+}
+
+button {
+    color: $textColor;
+    background-color: $buttonColor;
+    border-radius: 4px;
+}

@@ -1,0 +1,11 @@
+$titleColor: rgb(0, 83, 83);
+$articleColor:aqua;
+.container {
+    display: flex;
+    .left {
+        background-color: $titleColor;
+    }
+    .right {
+        background-color: $articleColor;
+    }
+}

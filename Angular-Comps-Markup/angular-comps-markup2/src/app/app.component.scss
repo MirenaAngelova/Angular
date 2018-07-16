@@ -1,0 +1,16 @@
+$articlesColor: rgb(253, 4, 4);
+$articleColor: rgb(253, 2, 140);
+$textColor: rgb(223, 1, 1);
+.container {
+    display: flex;
+    h1 {
+        text-align: center;
+        color: $textColor;
+    }
+    .left {
+        background-color: $articlesColor;
+    }
+    .right {
+        background-color: $articleColor;
+    }
+}

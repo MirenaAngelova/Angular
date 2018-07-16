@@ -1,0 +1,10 @@
+$articleColor: rgb(214, 3, 119);
+$textColor: rgb(253, 125, 196);
+h1 {
+    color: $articleColor;
+    text-align: center;
+}
+
+* {
+    color: $textColor;
+}

@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="col-md-4 left">
+        <h1>Articles</h1>
+        <note-articles *ngFor="let article of articles" (selection)="showDetails($event)" [article]="article"></note-articles>
+    </div>
+    <div class="col-md-8 right">
+        <note-article (deleteArticleEmitter)="deleteArticle($event)" [article]="targetedArticle"></note-article>
+    </div>
+</div>
