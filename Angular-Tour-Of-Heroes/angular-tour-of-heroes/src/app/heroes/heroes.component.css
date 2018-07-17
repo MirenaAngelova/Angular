@@ -1,0 +1,113 @@
+.heroes {
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+    /* 1em equals to 16px, the font size */
+    width: 15em;
+}
+
+.heroes li {
+    cursor: pointer;
+    position: relative;
+    /* background-color: rgb(250, 194, 194); */
+    background-color: rgb(75, 1, 38);
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.heroes li:hover {
+    /* background-color: rgb(225, 0, 0); */
+    /* color: rgb(255, 210, 210); */
+    background-color: rgb(82, 44, 1);
+    color: rgb(201, 107, 0);
+    left: .1em;
+}
+
+.heroes a {
+    /* color: #888; */
+    color: rgb(102, 0, 0);
+    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(82, 44, 1); */
+    /* color: rgb(201, 107, 0); */
+    text-decoration: none;
+    position: relative;
+    display: block;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    top: -0.7em;
+    left: -0.3em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.heroes a:hover {
+    color: rgb(255, 208, 227);
+}
+
+.heroes .badge {
+    display: inline-block;
+    font-size: .93em;
+    background-color: rgb(187, 0, 78);
+    color: rgb(255, 210, 210);
+    padding: .8em .6em 0em .6em;
+    line-height: 1em;
+    position: relative;
+    left: -0.1em;
+    top: -0.33em;
+    height: 1.6em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 5px 0 0 5px;
+}
+
+label {
+    /* display: inline-block; */
+    width: 2em;
+    /* margin: 15em 0; */
+    color: rgb(175, 0, 0);
+    font-weight: bold;
+}
+
+input {
+    height: 1.5em;
+    margin-top: 0.3em;
+    margin-right: .3em;
+    font-size: 1.2em;
+    padding-left: .3em;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: .2em;
+    margin-right: .2em;
+    font-family: Arial;
+    background-color: rgb(253, 4, 4);
+    color: rgb(117, 0, 0);
+    border-color: rgb(255, 0, 212);
+    padding: .4em .8em;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 128);
+}
+
+button:disabled {
+    background-color: rgb(202, 0, 253);
+    color: rgb(90, 0, 150);
+    cursor: auto;
+}
+
+button.delete {
+    position: relative;
+    left: 209px;
+    top: -54px;
+    font-weight: bold;
+}

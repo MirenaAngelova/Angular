@@ -1,0 +1,75 @@
+h1 {
+    color: rgb(255, 1, 86);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding: .3em .8em;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: rgb(252, 45, 114);
+    font-family: Cambria, Georgia;
+    font-size: 1.5em;
+    padding: .3em .5em;
+    margin-bottom: 0;
+}
+
+nav a {
+    padding: .6em .5em .5em .5em;
+    text-decoration: none;
+    margin-top: .3em;
+    margin-right: .3em;
+    /* margin-left: .3em; */
+    display: inline-block;
+    background-color: rgb(255, 1, 149);
+    border-radius: 5px;
+}
+
+nav a:visited,
+a:link {
+    color: rgb(155, 0, 34);
+}
+
+nav a:hover {
+    color: rgb(253, 229, 229);
+    background-color: rgb(255, 119, 198);
+}
+
+nav a.active {
+    color: #30e503;
+}
+
+body {
+    margin: 2em;
+}
+
+body {
+    color: rgb(255, 107, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    color: rgb(228, 2, 2);
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: rgb(233, 216, 170);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(248, 232, 186);
+}
+
+button:disabled {
+    background-color: rgb(67, 0, 155);
+    color: rgb(132, 0, 255);
+    cursor: auto;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(201, 186, 145);
+}

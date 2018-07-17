@@ -1,0 +1,22 @@
+@font-face {
+    font-family: messagesFont;
+    src: url(./../../assets/dancingOnTheBeach.OTF)
+}
+
+.clear {
+    padding-top: .5em;
+    padding-right: .5em;
+    line-height: 1em;
+}
+
+* {
+    font-family: messagesFont;
+    color: rgb(255, 8, 0);
+    font-size: 1.1em;
+    cursor: pointer;
+    cursor: hand;
+}
+
+h2 {
+    font-size: 1.7em;
+}
