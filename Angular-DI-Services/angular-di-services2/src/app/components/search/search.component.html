@@ -1,0 +1,5 @@
+<div class="search">
+    <label for="search">Search: </label>
+    <input (keyup)='search($event)' type="text" name="pokemon" id="search" placeholder="pokemon">
+    <app-table *ngFor="let pokemon of pokeData" [pokemon]="pokemon"></app-table>
+</div>

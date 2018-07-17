@@ -1,0 +1,7 @@
+<div class="user">
+    <label for="username">Username: </label>
+    <input (keyup)="retrieveData($event)" type="text" name="username" id="username" placeholder="username">
+    <span><label for="password">Password: </label>
+    <input (keyup)="retrieveData($event)" type="password" name="password" id="password" placeholder="password"></span>
+    <input (click)='authUser()' type="submit" value='Submit'>
+</div>

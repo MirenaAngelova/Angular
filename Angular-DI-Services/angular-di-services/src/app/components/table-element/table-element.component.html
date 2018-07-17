@@ -1,0 +1,10 @@
+<div class="pokemonEname" (click)="select(pokemon.id)">
+    <p>{{pokemon.ename}}</p>
+    <span>{{pokemon.id}}</span>
+    <span>Attack:{{pokemon.base.Attack}}</span>
+    <span>Defense {{pokemon.base.Defense}}</span>
+    <span>HP {{pokemon.base.HP}}</span>
+    <span>Speed {{pokemon.base.Speed}}</span>
+</div>
+
+<app-focused *ngIf="pokeData" [pokeImg]="pokeData" [pokeId]="pokemon.id"></app-focused>
