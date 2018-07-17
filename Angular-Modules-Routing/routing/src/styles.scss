@@ -1,0 +1,103 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$color-b1: blue;
+$color-b2: rgb(2, 2, 223);
+$color-b3: rgb(1, 1, 158);
+$color-b4: rgb(1, 1, 90);
+$color-y1: rgb(168, 160, 0);
+$color-y2: rgb(253, 244, 43);
+$color-y3: rgb(253, 244, 80);
+$color-y4: rgb(253, 244, 149);
+@font-face {
+    font-family: a;
+    src: url(assets/fonts/a.OTF);
+}
+
+@font-face {
+    font-family: b;
+    src: url(assets/fonts/b.TTF);
+}
+
+@font-face {
+    font-family: c;
+    src: url(assets/fonts/c.TTF);
+}
+
+$font-a: a;
+$font-b: b;
+$font-c: c;
+body {
+    font-family: $font-a; // font-family: a;
+    color: $color-y1;
+    background-color: $color-y4;
+}
+
+p {
+    font-family: b;
+    font-size: 5em;
+}
+
+#error {
+    font-family: c;
+    font-size: 7em;
+    color: darken($color-y1, $amount: 20%);
+    background-color: lighten($color-y1, $amount: 55%)
+}
+
+#config-panel-one {
+    background-color: red;
+    color: darken($color: red, $amount: 40%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#ngb-panel-1 {
+    background-color: blue;
+    color: darken($color: blue, $amount: 40%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#ngb-panel-2 {
+    background-color: green;
+    color: darken($color: green, $amount: 40%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#ngb-panel-3 {
+    background-color: orange;
+    color: darken($color: orange, $amount: 40%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#ngb-panel-4 {
+    background-color: darken($color-y4, $amount: 10%);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.btn-link {
+    color: cyan;
+}
+
+// .nav-item a {
+//     color: darken($color-y1, $amount: 10%);
+// }
+// #ngb-tab-0 {
+//     background-color: darken($color-y1, $amount: 10%);
+// }
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: $color-y4;
+    background-color: $color-y1;
+}
+
+a {
+    color: $color-y1;
+}
+
+a:hover {
+    color: darken($color-y1, $amount: 20%);
+    background-color: darken($color-y4, $amount: 6%);
+}

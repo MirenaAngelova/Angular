@@ -1,0 +1,29 @@
+<h1>Choose your faction</h1>
+
+<ngb-accordion #acc="ngbAccordion" activeIds="config-panel-one">
+    <ngb-panel title="First Team" id="config-panel-one">
+        <ng-template ngbPanelContent>
+            <div (click)="selectTeam($event)">Red</div>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Second Team">
+        <ng-template ngbPanelContent>
+            <div (click)="selectTeam($event)">Blue</div>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Third Team">
+        <ng-template ngbPanelContent>
+            <div (click)="selectTeam($event)">Green</div>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Fourth Team">
+        <ng-template ngbPanelContent>
+            <div (click)="selectTeam($event)">Orange</div>
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel title="Fifth Team">
+        <ng-template ngbPanelContent>
+            <div (click)="selectTeam($event)">Tabset-Config</div>
+        </ng-template>
+    </ngb-panel>
+</ngb-accordion>

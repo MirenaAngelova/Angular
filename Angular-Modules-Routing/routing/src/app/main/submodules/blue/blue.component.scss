@@ -1,0 +1,12 @@
+$color-b1: blue;
+$lighter-b1: lighten($color-b1, 40%);
+// @font-face {
+//     font-family: b;
+//     src: url(../../../../assets/fonts/c.TTF);
+// }
+// $font-b1: b;
+p {
+    color: $color-b1;
+    background-color: $lighter-b1;
+    // font-family: $font-b1;
+}
